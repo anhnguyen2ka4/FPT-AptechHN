@@ -1,0 +1,17 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    border: 6cm solid red;
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+    padding: 30px;
+  }
+  p {
+    border: 4px solid fuchsia;
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    margin: 500px;
+  }
