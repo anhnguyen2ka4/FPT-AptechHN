@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Map</title>
-</head>
-<body>
-    <img src="workplace.jpg" alt="workplace" usemap="#workmap">
+  </head>
+  <body>
+    <img src="workplace.jpg" alt="workplace" usemap="#workmap" />
     <map name="workmap">
-        <!-- 
+      <!-- 
             (x1, y1) là tọa độ góc trên bên trái của hình chữ nhật.
             (x2, y2) là tọa độ góc dưới bên phải của hình chữ nhật.
          -->
-    <area shape="rect" coords="34, 44, 270, 350" href="mac.jpg">
-</body>
+      <area
+        shape="rect"
+        coords="34, 44, 270, 350"
+        href="https://www.w3schools.com/html/computer.htm"
+        target="_blank"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        alt="Phone"
+        href="https://www.w3schools.com/html/phone.htm"
+        target="_blank"
+      />
+      <area
+        shape="circle"
+        coords="337,300,44"
+        alt="Cup of coffee"
+        href="https://www.w3schools.com/html/coffee.htm"
+        target="_blank"
+      />
+    </map>
+  </body>
 </html>
