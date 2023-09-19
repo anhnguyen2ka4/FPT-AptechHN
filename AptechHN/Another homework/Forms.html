@@ -6,48 +6,50 @@
     <title>Forms</title>
   </head>
   <body>
-    <form action="htpps://fptaptech.herokuapp.com" method="get">
-      <fieldset>
-        <legend>Your Details:</legend>
-        <label
-          >Name:
-          <input type="text" name="name" size="30" maxlength="100" /></label
-        ><br />
-        <label
-          >Email:
-          <input type="text" name="email" size="30" maxlength="100" /></label
-        ><br />
-      </fieldset>
-      <br />
-      <fieldset>
-        <legend>Your Review:</legend>
-        <p>
-          <label for="hear-about">How did you hear about us?</label>
-          <select name="referrer" id="hear-about">
-            <option value="google">google</option>
-            <option value="friend">friend</option>
-            <option value="advert">advert</option>
-            <option value="other">other</option>
-          </select>
-        </p>
-        <p>
-          Would you visit again?<br />
-          <label><input type="radio" name="rating" value="yes" /> Yes</label>
-          <label><input type="radio" name="rating" value="no" /> No</label>
+    <b>
+      <form action="htpps://fptaptech.herokuapp.com" method="get">
+        <fieldset>
+          <legend>Your Details:</legend>
           <label
-            ><input type="radio" name="rating" value="maybe" /> Maybe</label
-          >
-        </p>
-        <p>
-          <label for="comments">Comments</label><br />
-          <textarea id="comments" cols="40" rows="4"></textarea>
-        </p>
-        <label
-          ><input type="checkbox" name="subcribe" checked="checked" /> Sign me
-          up for email updates</label
-        ><br />
-        <input type="submit" value="Submit review" />
-      </fieldset>
-    </form>
+            >Name:
+            <input type="text" name="name" size="30" maxlength="100" /></label
+          ><br />
+          <label
+            >Email:
+            <input type="text" name="email" size="30" maxlength="100" /></label
+          ><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Your Review:</legend>
+          <p>
+            <label for="hear-about">How did you hear about us?</label>
+            <select name="referrer" id="hear-about">
+              <option value="google">google</option>
+              <option value="friend">friend</option>
+              <option value="advert">advert</option>
+              <option value="other">other</option>
+            </select>
+          </p>
+          <p>
+            Would you visit again?<br />
+            <label><input type="radio" name="rating" value="yes" /> Yes</label>
+            <label><input type="radio" name="rating" value="no" /> No</label>
+            <label
+              ><input type="radio" name="rating" value="maybe" /> Maybe</label
+            >
+          </p>
+          <p>
+            <label for="comments">Comments</label><br />
+            <textarea id="comments" cols="40" rows="4"></textarea>
+          </p>
+          <label
+            ><input type="checkbox" name="subcribe" checked="checked" /> Sign me
+            up for email updates</label
+          ><br />
+          <input type="submit" value="Submit review" />
+        </fieldset>
+      </form>
+    </b>
   </body>
 </html>
