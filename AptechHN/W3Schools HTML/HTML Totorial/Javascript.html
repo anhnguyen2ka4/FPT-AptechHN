@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <h1>My First JavaScript</h1>
+
+    <h2 id="demo"></h2>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+      Click to display Date and Time.
+    </button>
+    <h3 id="introduce"></h3>
+    <script>
+      document.getElementById("introduce").innerHTML = "Hello T2307M";
+    </script>
+    <button type="button" onclick="myFuntion()">Click me!</button>
+    <h3 id="Change">This is a demonstrate.</h3>
+    <script>
+      function myFuntion() {
+        document.getElementById("Change").innerHTML = "Have Changed!!!";
+        document.getElementById("introduce").style.fontSize = "25px";
+        document.getElementById("introduce").style.backgroundColor = "yellow";
+      }
+    </script>
+    <script>
+      function light(s) {
+        if (s == 0) {
+          var pic = "pic_bulboff.gif";
+        } else {
+          pic = "pic_bulbon.gif";
+        }
+        document.getElementById("myImage").src = pic;
+      }
+    </script>
+    <img id="myImage" src="pic_bulboff.gif" width="100" height="180" />
+    <p>
+      <button type="button" onclick="light(1)">Light on</button>
+      <button type="button" onclick="light(0)">Light off</button>
+    </p>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+  </body>
+</html>
