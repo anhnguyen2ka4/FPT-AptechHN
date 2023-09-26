@@ -1,0 +1,20 @@
+*{
+  display: flexbox;
+}
+ .header-image{
+    width: 100%;
+ }
+ nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+ }
+ li{
+    width: 100%;
+    background-color: rgb(110, 106, 103);
+    padding: 20px;
+ }
+ a{
+    color: white;
+    text-decoration: none;
+ }
