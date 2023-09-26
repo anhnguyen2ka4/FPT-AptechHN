@@ -3,64 +3,65 @@
   <head>
     <title>Simple registration form</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600"
       rel="stylesheet"
+      type="text/css"
     />
     <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css"
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Registration.css">
+
+    <link rel="stylesheet" href="Registration.css" />
   </head>
   <body>
-    <div class="main-block">
+    <div class="testbox">
       <h1>Registration</h1>
-      <form>
+
+      <form action="/">
         <hr />
-        <div class="account-type">
+        <div class="accounttype">
           <input
             type="radio"
-            value="none"
+            value="None"
             id="radioOne"
             name="account"
             checked
           />
-          <label for="radioOne" class="radio">Personal</label>
-          <input type="radio" value="none" id="radioTwo" name="account" />
+          <label for="radioOne" class="radio" chec>Personal</label>
+          <input type="radio" value="None" id="radioTwo" name="account" />
           <label for="radioTwo" class="radio">Company</label>
         </div>
         <hr />
-        <label class="icon" for="name"><i class="fas fa-envelope"></i></label>
-        <input type="text" name="name" id="email" placeholder="Email" required />
-        <label class="icon" for="name"><i class="fas fa-user"></i></label>
-        <input type="text" name="name" id="name" placeholder="Name" required />
-        <label class="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+        <label class="icon" for="name"><i class="icon-envelope"></i></label>
+        <input type="text" name="name" id="name" placeholder="Email" required />
+        <label class="icon" for="name"><i class="icon-user"></i></label>
+        <input
+          type="text"
+          name="name"
+          class="name"
+          placeholder="Name"
+          required
+        />
+        <label class="icon" for="name"><i class="icon-shield"></i></label>
         <input
           type="password"
-          name="password"
-          id="password"
+          name="name"
+          class="name"
           placeholder="Password"
           required
         />
-        <hr />
         <div class="gender">
-          <input type="radio" value="none" id="male" name="gender" checked />
-          <label for="male" class="radio">Male</label>
-          <input type="radio" value="none" id="female" name="gender" />
+          <input type="radio" value="None" id="male" name="gender" checked />
+          <label for="male" class="radio" chec>Male</label>
+          <input type="radio" value="None" id="female" name="gender" />
           <label for="female" class="radio">Female</label>
         </div>
-        <hr />
-        <div class="btn-block">
-          <p>
-            By clicking Register, you agree on our
-            <a href="#"
-              >term and conditions</a
-            >.
-          </p>
-          <button type="submit" href="/">Submit</button>
-        </div>
+        <p>
+          By clicking Register, you agree on our
+          <a href="#">terms and condition</a>.
+        </p>
+        <a href="#" class="button">Register</a>
       </form>
     </div>
   </body>
