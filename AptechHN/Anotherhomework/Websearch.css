@@ -21,6 +21,7 @@ body{
   margin-left: 180px;
 }
 img{
+  cursor: pointer;
   margin: 4px;
   float: inline-end;
   border: 1px solid rgb(212, 202, 202);
