@@ -1,0 +1,24 @@
+body{
+background: url('.././Anotherhomework/image/lab03/teriyaki.jpg');
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+padding: 0;
+-webkit-background-size: cover;
+}
+h1, p{
+    float: left;
+    clear: left;
+    width: 320px;
+    background-color: #ffff;
+    color: blue;
+    text-align: center;
+}
+h1{
+    background-image: url('.././Anotherhomework/image/isearch/p1.jpg');
+    color: #ffff;
+    margin: 50px 0 0 50px;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-indent:-9999px;
+    boder
+}
