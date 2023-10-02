@@ -36,6 +36,7 @@ margin: 0px;
 padding: 5px 0px 5px 30px;
 }
 nav li {
+font-weight: bold;
 display: inline; margin-right: 40px;} nav li a {
 color: #ffffff;
 }
