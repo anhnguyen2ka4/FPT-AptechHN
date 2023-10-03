@@ -4,10 +4,8 @@ display: block;
 body {
 color: #666666;
 background-color: #f9f8f6;
-background-image:
-url("../Anotherhomework/image/lab03/dark-wood.jpg");
-background-position:
-center;
+background-image:url("../Anotherhomework/image/lab03/dark-wood.jpg");
+background-position:center;
 font-family: Georgia, Times, serif;
 line-height: 1.4em;
 margin: 0px;
@@ -26,7 +24,10 @@ h1 {
 text-indent:-9999px;
 width: 940px;
 height: 130px;
-margin: 0px;} nav, footer { clear: both;
+margin: 0px;
+} 
+nav, footer { 
+clear: both;
 color: #ffffff;
 background-color: #aeaca8;
 height: 30px;
