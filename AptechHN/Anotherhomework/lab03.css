@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+    color: #666666;
+    background-image: url('../Anotherhomework/image/lab03/dark-wood.jpg');
+    background-color: #f9f6f9;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+.ihead{
+    background-image: url('../Anotherhomework/image/lab03/header.jpg');
+    height: 130px;
+}
+.wrapper{
+    background-color: #f9f6f9;
+    width: 940px;
+    border: 2px solid black;
+    margin: 20px auto 20px auto;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin: 15px;
+}
+li{
+    display: inline;
+}
