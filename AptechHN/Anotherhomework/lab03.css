@@ -2,48 +2,6 @@
     margin: 0;
 }
 body{
-    color: #666666;
     background-image: url('../Anotherhomework/image/lab03/dark-wood.jpg');
-    background-color: #f9f6f9;
     background-position: center;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.4em;
-}
-.ihead{
-    background-image: url('../Anotherhomework/image/lab03/header.jpg');
-    height: 130px;
-}
-.wrapper{
-    background-color: #f9f6f9;
-    width: 940px;
-    border: 2px solid black;
-    margin: 20px auto 20px auto;
-}
-ul li{
-    display: inline;
-    margin-right: 40px;
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    color: #f9f6f9;
-}
-nav, footer{
-    font-weight: bold;
-    clear: both;
-    color: #ffffff;
-    background-color: #aeaca8;
-    padding: 10px;
-}
-a:hover{
-    color: black;
-}
-#Home{
-    color: black;
-}
-figure{
-    margin: 10px;
-    padding: 5px;
-    width: 290px;
-    border: 1px solid rgb(223, 211, 211);
 }
