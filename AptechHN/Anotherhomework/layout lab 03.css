@@ -3,7 +3,9 @@ section,
 footer, 
 aside, 
 nav, 
-article, figure, figcaption {
+article, 
+figure, 
+figcaption {
 display: block;
 }
 body {
