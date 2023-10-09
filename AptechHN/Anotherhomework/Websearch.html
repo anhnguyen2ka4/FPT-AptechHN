@@ -9,25 +9,69 @@
   <body>
     <header id="head"></header>
     <div class="grid-container">
-      <div class="bar-search">
-        <input
-          type="text"
-          id="search"
-          name="search"
-          placeholder="Filter by search"
+      <div class="search">
+        <input type="text" id="filte-search" placeholder="Filter by search" />
+      </div>
+      <div class="gallery">
+        <img
+          src=".././Anotherhomework/image/isearch/p1.jpg"
+          data-tag="Animators, Illustrators"
+          alt="Rabbit"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p2.jpg"
+          data-tag="Photographers, Filmakers"
+          alt="Sea"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p3.jpg"
+          data-tag="Photographers, Filmakers"
+          alt="Deer"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p4.jpg"
+          data-tag="Designers"
+          alt="New York Street Map"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p5.jpg"
+          data-tag="Photographers"
+          alt="Sydney Train"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p6.jpg"
+          data-tag="Designers, Illustrators"
+          alt="Typographic Study"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p7.jpg"
+          data-tag="Photographers, Filmakers"
+          alt="Trumpet"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p8.jpg"
+          data-tag="Designers"
+          alt="Aqua Logo"
+        />
+        <img
+          src=".././Anotherhomework/image/isearch/p9.jpg"
+          data-tag="Animators, Illustrators"
+          alt="Ghost"
         />
       </div>
-      <div class="grid-item">
-        <img src=".././Anotherhomework/image/isearch/p1.jpg" data-tag="" alt="p1 image" />
-        <img src=".././Anotherhomework/image/isearch/p2.jpg" alt="p2 image" />
-        <img src=".././Anotherhomework/image/isearch/p3.jpg" alt="p3 image" />
-        <img src=".././Anotherhomework/image/isearch/p4.jpg" alt="p4 image" />
-        <img src=".././Anotherhomework/image/isearch/p5.jpg" alt="p5 imgage" />
-        <img src=".././Anotherhomework/image/isearch/p6.jpg" alt="p6 image" />
-        <img src=".././Anotherhomework/image/isearch/p7.jpg" alt="p7 image" />
-        <img src=".././Anotherhomework/image/isearch/p8.jpg" alt="p8 image" />
-        <img src=".././Anotherhomework/image/isearch/p9.jpg" alt="p9 image" />
-      </div>
     </div>
+    <script>
+      (function(){
+        var $imgs = $('.gallery img')
+        var $search = $('#filter-search');
+        var cache =[];
+        $imgs.each(function(){
+          cache.push(){
+            Element:this,
+            Text:this.alt.trim().toLower
+          }
+        })
+      });
+    </script>
   </body>
 </html>
