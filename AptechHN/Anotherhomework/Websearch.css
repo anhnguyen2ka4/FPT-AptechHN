@@ -17,7 +17,7 @@ body{
   display: contents;
   vertical-align: middle;
 }
-.grid-item{
+.gallery{
   margin-left: 180px;
 }
 img{
@@ -28,7 +28,7 @@ img{
   padding: 10px;
   background: white;
 }
-.bar-search{
+.search{
   margin: 30px;
   text-align: center;
 }
