@@ -24,3 +24,10 @@ ul li{
     display: inline-block;
     list-style-type: none;
 }
+hgroup{
+    width: 290px;
+    text-align-last: left;
+}
+.stc{
+    float: left;
+}
