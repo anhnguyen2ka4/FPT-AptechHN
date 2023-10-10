@@ -1,8 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #f9f8f6;
+    background-position: center;
+}
+.container{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 360px;
+    height: 500px;
+}
+.text-center-1,
+.text-center-2,
+.text-center-3{
+    text-align: center;
+}
+.text-center-1{
+    padding: 10px;
+    font-size: 25px;
+}
+.text-center-2{
+    padding: 5px;
+}
+.btn-facebook { 
+    margin: 5px 11px 5px 11px;
+    display: inline-block;
+    background-color: #405D9D;
+}
+.btn-twitter {
+    margin: 5px 11px 0 11px;
+    display: inline-block;
+    background-color: #42AEEC;
+}
+.btn-facebook, .btn-twitter{
+    width: 320px;
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+} 
+label{
+    padding: 2px;
+    border: 1px solid;
+    display: inline-block;
+}
+
 .divider-text {
     position: relative;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 .divider-text span {
     padding: 7px;
@@ -19,21 +73,4 @@
     left: 0;
     z-index: 1;
 }
-.btn-facebook { 
-    background-color: #405D9D;
-}
-.btn-twitter {
-    background-color: #42AEEC;
-}
-.btn-facebook, .btn-twitter{
-    width: 300px;
-    text-align: center;
-    display: block;
-    color: #fff;
-    padding: 8px;
-    border-radius: 3px;
-}
-a{
-    text-decoration: none;
-} 
  
