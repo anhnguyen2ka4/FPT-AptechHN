@@ -12,15 +12,14 @@
   </head>
   <body>
     <div class="container">
-      <div class="card bg-light">
-        <article class="card-body mx-auto" style="max-width: 400px">
-          <h4 class="card-title mt-3 text-center">Create Account</h4>
-          <p class="text-center">Get started with your free account</p>
+        <article style="max-width: 400px">
+          <h4 class="text-center-1">Create Account</h4>
+          <p class="text-center-2">Get started with your free account</p>
           <p id="social">
             <a href="#" class="btn btn-block btn-twitter">
               <i class="fab fa-twitter"></i> &nbsp; Login via Twitter</a
             >
-            <br>
+            <br />
             <a href="#" class="btn btn-block btn-facebook">
               <i class="fab fa-facebook-f"></i> &nbsp; Login via facebook</a
             >
@@ -30,11 +29,7 @@
           </p>
           <form>
             <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="fa fa-user"></i>
-                </span>
-              </div>
+              <label><i class="fa fa-user"></i></label>
               <input
                 name=""
                 class="form-control"
@@ -42,25 +37,15 @@
                 type="text"
               />
             </div>
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="fa fa-envelope"></i>
-                </span>
-              </div>
-              <input
-                name=""
-                class="form-control"
-                placeholder="Email address"
-                type="email"
-              />
-            </div>
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="fa fa-phone"></i>
-                </span>
-              </div>
+            <label><i class="fa fa-envelope"></i></label>
+            <input
+              name=""
+              class="form-control"
+              placeholder="Email address"
+              type="email"
+            />
+            <div>
+              <i class="fa fa-phone"></i>
               <select class="custom-select" style="max-width: 120px">
                 <option selected="">+84</option>
                 <option value="1">+91</option>
@@ -74,12 +59,8 @@
                 type="text"
               />
             </div>
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="fa fa-building"></i>
-                </span>
-              </div>
+            <div>
+              <i class="fa fa-building"></i>
               <select class="form-control">
                 <option selected="">Select job type</option>
                 <option>Designer</option>
@@ -87,30 +68,20 @@
                 <option>Accaunting</option>
               </select>
             </div>
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="fa fa-lock"></i>
-                </span>
-              </div>
+            <div>
+              <i class="fa fa-lock"></i>
               <input
                 class="form-control"
                 placeholder="Create password"
                 type="password"
               />
             </div>
-            <div class="form-group input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="fa fa-lock"></i>
-                </span>
-              </div>
-              <input
-                class="form-control"
-                placeholder="Repeat password"
-                type="password"
-              />
-            </div>
+            <i class="fa fa-lock"></i>
+            <input
+              class="form-control"
+              placeholder="Repeat password"
+              type="password"
+            />
             <div class="form-group">
               <button type="submit" class="btn btn-primary btn-block">
                 Create Account
@@ -120,7 +91,6 @@
           </form>
         </article>
       </div>
-    </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </body>
 </html>
