@@ -11,23 +11,40 @@ header{
     height: 130px;
 }
 .wrapper{
-    border: 4px solid black;
+    border: 2px solid black;
+    background-color: #f9f9f9;
     width: 940px;
-    margin: 20px auto 20px auto;
-}
-li a{
-    color: white;
-    text-decoration: none;
 }
 ul li{
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
     list-style-type: none;
 }
-hgroup{
-    width: 290px;
-    text-align-last: left;
+li a{
+    margin:0 8px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9f9f9;
 }
-.stc{
-    float: left;
+li a:hover{
+    color: black;
+}
+#Home{
+    color: black;
+}
+#Home:hover{
+    color: #f9f9f9;
+}
+nav{
+    background-color: gray;
+}
+figure{
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid rgb(187, 179, 179);
+    padding: 8px;
+}
+hgroup{
+    display: inline-block;
+    width: 260px;
 }
