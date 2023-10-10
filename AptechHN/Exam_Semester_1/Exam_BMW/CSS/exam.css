@@ -45,13 +45,15 @@ body{
 }
 a{
     text-decoration: none;
+}
+form{
+    text-align: center;
 } 
 label{
     padding: 2px;
     border: 1px solid;
     display: inline-block;
 }
-
 .divider-text {
     position: relative;
     text-align: center;
