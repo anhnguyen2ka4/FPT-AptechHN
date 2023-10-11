@@ -5,6 +5,7 @@
 body{
   background-color: rgb(238, 233, 226);
   box-sizing: border-box;
+  vertical-align: middle;
 }
 #head{
   background-image: url(".././Anotherhomework/image/isearch/creative-folk.png");
@@ -15,7 +16,6 @@ body{
 }
 .grid-container{
   display: contents;
-  vertical-align: middle;
 }
 .gallery{
   margin-left: 180px;
@@ -23,7 +23,6 @@ body{
 img{
   cursor: pointer;
   margin: 4px;
-  float: inline-end;
   border: 1px solid rgb(212, 202, 202);
   padding: 10px;
   background: white;
@@ -31,4 +30,7 @@ img{
 .search{
   margin: 30px;
   text-align: center;
+}
+.image{
+  float: left;
 }
