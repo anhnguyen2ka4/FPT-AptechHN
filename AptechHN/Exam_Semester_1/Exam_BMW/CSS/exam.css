@@ -134,8 +134,8 @@ input#phonenumber{
 .divider-text {
     position: relative;
     text-align: center;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 .divider-text span {
     padding: 7px;
@@ -146,10 +146,9 @@ input#phonenumber{
 .divider-text:after {
     content: "";
     position: absolute;
-    width: 100%;
+    width: 90%;
     border-bottom: 1px solid #ddd;
     top: 55%;
-    left: 0;
-    z-index: 1;
+    left: 18px;
 }
  
