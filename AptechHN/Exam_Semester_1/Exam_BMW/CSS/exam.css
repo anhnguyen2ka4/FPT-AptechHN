@@ -8,11 +8,16 @@ body{
     background-position: center;
 }
 .container{
-    border: 1px solid;
+    
+    -webkit-box-shadow: 4px 5px 8px rgba(0,0,0,.09); 
+    -moz-box-shadow: 4px 5px 8px rgba(0,0,0,.09); 
+    box-shadow: 4px 5px 8px rgba(0,0,0,.09); 
+    padding: 15px;
+    border: 1px solid #cbcbcb;
     border-radius: 10px;
     margin: 50px auto;
-    width: 360px;
-    height: 500px;
+    width: 375px;
+    height: 600px;
 }
 .text-center-1,
 .text-center-2,
@@ -27,32 +32,104 @@ body{
     padding: 5px;
 }
 .btn-facebook { 
-    margin: 5px 11px 5px 11px;
+    margin: 8px 15px 5px 15px;
     display: inline-block;
     background-color: #405D9D;
 }
 .btn-twitter {
-    margin: 5px 11px 0 11px;
+    margin: 5px 15px 0 15px;
     display: inline-block;
     background-color: #42AEEC;
 }
 .btn-facebook, .btn-twitter{
-    width: 320px;
+    width: 325px;
     text-align: center;
     color: #fff;
     padding: 8px;
     border-radius: 3px;
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
 }
 a{
     text-decoration: none;
 }
 form{
+    margin: 0 auto;
+    width: 335px;
     text-align: center;
 } 
 label{
-    padding: 2px;
-    border: 1px solid;
+    border: 1px solid #cbcbcb;
+    border-right: 0;
     display: inline-block;
+    background-color: #cdc6c67d;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+    border-radius: 4px 0 0 4px;
+    width: 5%;
+}
+input[type=text],input[type=password],input[type=email]{
+    width: 84%; 
+    height: 18px;
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+    border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    background-color: #fff; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 1px #cbc9c9;
+    margin-top: 13px; 
+    margin-left: -4px;
+  }
+input, label ,.custom-select{
+    padding: 8px;
+}
+.custom-select{
+    background-color: #fff; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 1px #cbc9c9;
+    margin-left: -4px;
+    width: 40%;
+    margin-top: 13px;
+    padding: 9px;
+}
+#select-job{
+    border-color: #cbcbcb;
+    margin-top: 13px;
+    padding: 9px;
+    margin-left: -5px;
+    width: 90%;
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+    border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    background-color: #fff; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 1px #cbc9c9;
+}
+input#phonenumber{
+    padding: 8px;
+    height: 19px;
+    width: 44%;
+    border-left: 0;
+}
+.btn-submit{ 
+    font-size: 18px;
+    color: #f9f8f6;  
+    background-color: #42AEEC;
+    margin: 15px auto;
+    padding: 8px;
+    border-radius: 3px;
+    border-color: #42AEEC;
+    width: 100%;
 }
 .divider-text {
     position: relative;
