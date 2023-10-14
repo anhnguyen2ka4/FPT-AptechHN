@@ -56,13 +56,14 @@ a{
 }
 form{
     margin: 0 auto;
-    width: 335px;
-    text-align: center;
+    width: 338px;
+    vertical-align: middle;
 } 
 label{
+    position: relative;
+    vertical-align: middle;
     border: 1px solid #cbcbcb;
     border-right: 0;
-    display: inline-block;
     background-color: #cdc6c67d;
     box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
     -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
@@ -70,11 +71,11 @@ label{
     -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
     -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
     border-radius: 4px 0 0 4px;
-    width: 5%;
+    width: 20px;
 }
 input[type=text],input[type=password],input[type=email]{
     width: 84%; 
-    height: 19px;
+    height: 18px;
     -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
     -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
     border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
@@ -85,6 +86,7 @@ input[type=text],input[type=password],input[type=email]{
     border: solid 1px #cbc9c9;
     margin-top: 13px; 
     margin-left: -4px;
+    padding-left: 10px;
   }
 input, label ,.custom-select{
     padding: 8px;
@@ -97,14 +99,15 @@ input, label ,.custom-select{
     border: solid 1px #cbc9c9;
     margin-left: -4px;
     width: 40%;
+    padding: 8px;
     margin-top: 13px;
-    padding: 9px;
 }
 #select-job{
     border-color: #cbcbcb;
     margin-top: 13px;
-    padding: 9px;
-    margin-left: -5px;
+    padding: 8px;
+    height: 35px;
+    margin-left: -4px;
     width: 90%;
     -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
     -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
@@ -117,7 +120,7 @@ input, label ,.custom-select{
 }
 input#phonenumber{
     padding: 8px;
-    height: 19px;
+    height: 18px;
     width: 44%;
     border-left: 0;
 }
