@@ -1,0 +1,21 @@
+h3 {
+    background-color: orange;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+    text-align: right;
+    padding: 0 36px 0 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightblue;
+}
+
+h4 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
