@@ -1,0 +1,13 @@
+body {
+    color: rgb(108, 169, 204);
+    margin: 25px;
+    background: url(hoa_sen.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1,
+p {
+    width: 250px;
+}
