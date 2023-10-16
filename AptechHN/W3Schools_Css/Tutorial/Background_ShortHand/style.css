@@ -1,0 +1,14 @@
+ul li{
+    display: list-item;
+    margin-top: 2px;
+    background-color: rgb(173, 179, 179);
+    color: rgb(209, 65, 65);
+}
+li::marker{
+    color: white;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+}
