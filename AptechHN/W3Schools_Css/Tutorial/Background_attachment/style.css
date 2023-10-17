@@ -1,10 +1,10 @@
 body {
     color: rgb(108, 169, 204);
     margin: 25px;
-    background: url(hoa_sen.jpg);
-    background-position: right top;
+    background: url(hoa_sen.jpg), url(hoa_sen.jpg);
+    background-position: right top, left;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed, scroll;
 }
 
 h1,
