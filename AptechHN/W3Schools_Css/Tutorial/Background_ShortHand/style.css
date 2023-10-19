@@ -1,14 +1,23 @@
-ul li{
-    display: list-item;
+ul li {
+    padding: 2px 3px;
     margin-top: 2px;
-    background-color: rgb(173, 179, 179);
+    background: rgb(173, 179, 179);
     color: rgb(209, 65, 65);
 }
-li::marker{
+
+li::marker {
     color: white;
 }
-body{
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    background-color: black;
+    background: black url(image.jpg) no-repeat left top fixed;
+    /* background-shorthand */
+    background-size: 800px 500px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: disc;
 }
