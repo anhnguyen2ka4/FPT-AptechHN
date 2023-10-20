@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padding</title>
+    <style>
+      * {
+        margin: 0;
+        color: white;
+      }
+      h3 {
+        padding: 50px;
+        background: gray;
+        width: 300px;
+      }
+      h4 {
+        background: green;
+        padding: 50px;
+        box-sizing: border-box;
+        width: 300px;
+      }
+      h5 {
+        background: lightskyblue;
+        padding: 40px;
+        width: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>hi how are you today?</h3>
+    <h4>oh, i'm fine.</h4>
+    <h5>
+      Different:
+      <li>width of h3 = padding(left+right) + content = 50 + 50 + 300 = 400</li>
+      <li>
+        width of h4 = with of that content (because have a box-sizing property)
+      </li>
+    </h5>
+  </body>
+</html>
