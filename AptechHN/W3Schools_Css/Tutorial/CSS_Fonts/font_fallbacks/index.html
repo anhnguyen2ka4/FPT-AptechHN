@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Fallbacks</title>
+    <style>
+      body {
+        background-color: #1d2a35;
+        color: white;
+      }
+      tr:nth-child(odd) {
+        background-color: #1d2a35;
+      }
+      tr:nth-child(even) {
+        background-color: #38444d;
+      }
+      table {
+        border: 1px solid;
+        border-collapse: collapse;
+        width: 580px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>font-family</th>
+        <th>Example text</th>
+        <th>Code</th>
+      </tr>
+      <tr>
+        <div id="timenewroman">
+          <td>"Times New Roman", Times, serif</td>
+          <td>
+            <h1>This is a Heading</h1>
+            <p>This is a paragraph</p>
+          </td>
+          <td>Try it</td>
+        </div>
+      </tr>
+      <tr>
+        <div id="georgia">
+          <td style="font-family: Georgia, 'Times New Roman', Times, serif">
+            Georgia, serif
+          </td>
+          <td>
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif">
+              This is a Heading
+            </h1>
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif">
+              This is a paragraph
+            </p>
+          </td>
+          <td>Try it</td>
+        </div>
+      </tr>
+      <tr>
+        <div id="garamond" style="font-family: serif">
+          <td>Garamond, serif</td>
+          <td>
+            <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+              This is a Heading
+            </h1>
+            <p>This is a paragraph</p>
+          </td>
+          <td>Try it</td>
+        </div>
+      </tr>
+    </table>
+  </body>
+</html>
