@@ -1,0 +1,42 @@
+.ex1,
+.ex1 th,
+.ex1 td {
+    padding: 15px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.ex1 th {
+    text-align: left;
+}
+
+.ex1 {
+    width: 100%;
+}
+
+.ex2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ex2 tr:nth-child(even) {
+    background-color: black;
+}
+
+.ex2 tr:nth-child(odd) {
+    background-color: rgb(58, 80, 54);
+}
+
+.ex2 th,
+.ex2 td,
+.ex2 tr {
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid rgb(186, 175, 175);
+}
+
+.ex2 tr:hover {
+    background: orange;
+}
