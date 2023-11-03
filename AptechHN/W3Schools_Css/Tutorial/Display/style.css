@@ -1,0 +1,19 @@
+li {
+    list-style: none;
+    display: inline;
+    background: #f99;
+}
+
+ul {
+    background: yellowgreen;
+}
+
+span {
+    background: #f99;
+    display: block;
+}
+
+div a {
+    display: block;
+    background: rgb(242, 237, 237);
+}
