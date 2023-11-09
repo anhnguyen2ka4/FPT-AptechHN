@@ -17,3 +17,8 @@ div a {
     display: block;
     background: rgb(242, 237, 237);
 }
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
