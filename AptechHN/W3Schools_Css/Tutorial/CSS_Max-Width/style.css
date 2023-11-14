@@ -1,7 +1,16 @@
 .ex1 {
     max-width: 500px;
+    margin: auto;
+
 }
 
 .ex2 {
+    margin: 20px auto;
     width: 500px;
+}
+
+.ex1,
+.ex2 {
+    border: 5px solid green;
+    padding: 8px;
 }
