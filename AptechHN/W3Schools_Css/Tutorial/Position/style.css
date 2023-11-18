@@ -1,0 +1,67 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+strong {
+    color: red;
+    text-decoration: underline;
+}
+
+.note {
+    margin: 10px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.fixed {
+    font-weight: bold;
+    padding: 10px;
+    border: 3px solid green;
+    background: rgb(165, 218, 195);
+    text-align: end;
+    color: rgb(192, 122, 109);
+    width: 40%;
+    position: fixed;
+    right: 2px;
+    bottom: 3.5px;
+}
+
+.static {
+
+    position: static;
+    border: 5px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+    border: 5px solid green;
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    border: 5px solid rgb(99, 145, 160);
+    background: lightsalmon;
+    padding: 5px;
+}
+
+.sticky {
+    margin: 50px;
+    top: 0;
+    position: sticky;
+    border: 5px solid green;
+    background: rgb(146, 188, 146);
+}
+
+.document {
+    margin-top: 20px;
+    margin-left: 20px;
+}
