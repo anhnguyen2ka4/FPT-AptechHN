@@ -47,10 +47,16 @@ strong {
 }
 
 .absolute {
+    left: 30%;
+    top: 40%;
     position: absolute;
     border: 5px solid rgb(99, 145, 160);
     background: lightsalmon;
-    padding: 5px;
+}
+
+.hihi {
+    border: 5px solid rgb(99, 145, 160);
+    position: relative;
 }
 
 .sticky {
