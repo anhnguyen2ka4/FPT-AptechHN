@@ -4,12 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello from './components/home1/index'
+import AppOfIcons from './example-in-class/icons/AppOfIcons';
+import XmlHttpExample from './example-in-class/25-11-23/XmlHttpExample';
+import FetchExample from './example-in-class/25-11-23/FetchExample';
+import AxiosExample from './example-in-class/25-11-23/AxiosExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Hello/>
+    {/* <Hello/> */}
+    {/* <AppOfIcons /> */}
+    {/* <XmlHttpExample /> */}
+    {/* <FetchExample /> */}
+    <AxiosExample />
   </React.StrictMode>
 );
 
