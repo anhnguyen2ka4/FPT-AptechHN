@@ -1,0 +1,34 @@
+USE Master
+GO
+IF EXISTS (SELECT * FROM sys.databases WHERE Name='DMLexercise')
+DROP DATABASE DMLexercise
+GO
+CREATE DATABASE DMLexercise
+GO
+USE DMLexercise
+GO
+
+CREATE Schema courses;
+GO
+
+CREATE TABLE student (
+	s_id SMALLINT PRIMARY KEY,
+	s_fname VARCHAR(20) NOT NULL,
+	s_lname VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE courses.course (
+	c_id SMALLINT PRIMARY KEY,
+	c_name VARCHAR(30)
+);
+
+CREATE TABLE courses.coures_grades(
+	cg_id SMALLINT PRIMARY KEY,
+	semester CHAR(4) NOT NULL,
+	c_id SMALLINT NOT NULL,
+	s_id SMALLINT NOT NULL,
+	grade CHAR NOT NULL,
+	FOREIGN KEY (c_id) REFERENCES courses.course (c_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (s_id) REFERENCES student (s_id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
