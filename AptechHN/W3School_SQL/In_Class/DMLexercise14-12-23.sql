@@ -17,11 +17,6 @@ CREATE TABLE student (
 	s_lname VARCHAR(20) NOT NULL
 );
 
-CREATE TABLE courses.course (
-	c_id SMALLINT PRIMARY KEY,
-	c_name VARCHAR(30)
-);
-
 CREATE TABLE courses.course_grades(
 	cg_id SMALLINT PRIMARY KEY,
 	semester CHAR(4) NOT NULL,
@@ -32,3 +27,7 @@ CREATE TABLE courses.course_grades(
 	FOREIGN KEY (s_id) REFERENCES student (s_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+CREATE TABLE courses.course (
+	c_id SMALLINT PRIMARY KEY,
+	c_name VARCHAR(30)
+);
