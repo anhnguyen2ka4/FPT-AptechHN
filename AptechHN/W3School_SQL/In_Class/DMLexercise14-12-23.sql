@@ -22,7 +22,7 @@ CREATE TABLE courses.course (
 	c_name VARCHAR(30)
 );
 
-CREATE TABLE courses.coures_grades(
+CREATE TABLE courses.course_grades(
 	cg_id SMALLINT PRIMARY KEY,
 	semester CHAR(4) NOT NULL,
 	c_id SMALLINT NOT NULL,
