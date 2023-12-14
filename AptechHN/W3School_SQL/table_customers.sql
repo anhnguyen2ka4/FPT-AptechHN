@@ -17,4 +17,4 @@ CREATE TABLE customers(
 	city VARCHAR (50) NOT NULL,
 	postal_code VARCHAR (50),
 	country VARCHAR (25) NOT NULL
-	);
+);
