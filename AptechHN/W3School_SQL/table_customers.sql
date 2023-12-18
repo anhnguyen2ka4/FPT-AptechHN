@@ -1,20 +1,20 @@
 USE Master
 GO
-IF EXISTS (SELECT * FROM sys.databases WHERE Name='Customers_table')
-DROP DATABASE Customers_table
+IF EXISTS (SELECT * FROM sys.databases WHERE Name='CustomersTable')
+DROP DATABASE CustomersTable
 GO
-CREATE DATABASE Customers_table
+CREATE DATABASE CustomersTable
 GO
-USE Customers_table
+USE CustomersTable
 GO
 
 -- create table
-CREATE TABLE customers(
-	customer_id INT IDENTITY (1,1) PRIMARY KEY,
-	customer_name VARCHAR (50) NOT NULL,
-	contact_name VARCHAR (25) NOT NULL,
-	c_address VARCHAR (255) NOT NULL,
-	city VARCHAR (50) NOT NULL,
-	postal_code VARCHAR (50),
-	country VARCHAR (25) NOT NULL
+CREATE TABLE Customers(
+	CustomerID INT IDENTITY (1,1) PRIMARY KEY,
+	CustomerName VARCHAR (50) NOT NULL,
+	ContactName VARCHAR (25) NOT NULL,
+	CustomerAddress VARCHAR (255) NOT NULL,
+	City VARCHAR (50) NOT NULL,
+	PostalCode VARCHAR (50),
+	Country VARCHAR (25) NOT NULL
 );
