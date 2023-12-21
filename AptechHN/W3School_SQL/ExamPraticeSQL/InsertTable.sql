@@ -1,35 +1,42 @@
 ﻿USE Exam
 GO
 
-iNSERT INTO Department VALUES
-(1, 'IT'),
-(2, 'IT'),
-(3, 'HR'),
-(4, 'HR'),
-(5, 'HR'),
-(6, 'SALE'),
-(7, 'HR'),
-(8, 'IT'),
-(9, 'SALE');
+-- Nhập dữ liệu vào bảng Employee
+INSERT INTO Employee (EmployeeCode, EmployeeName, DepartmentCode, BasicSalary, Note)
+VALUES ('A1', 'Nguyễn Văn A', 'IT', 1.000, NULL),
+       ('A2', 'Lê Thị Bình', 'IT', 1.200, NULL),
+       ('B1', 'Nguyễn Lan', 'HR', 600, NULL),
+       ('D1', 'Mai Tuấn Anh', 'HR', 500, NULL),
+	   ('C1', 'Hà Thị Lan', 'HR', 500, NULL),
+	   ('C2', 'Lê Tú Chinh', 'SALE', 1.200, NULL),
+	   ('D2', 'Trần Văn Toàn', 'HR', 500, NULL),
+	   ('A3', 'Trần Văn Nam', 'IT', 1.200, NULL),
+	   ('B2', 'Huỳnh Anh', 'SALE', 1.200, NULL);
+GO
 
-INSERT INTO WorkRole VALUES
-(1, 'DMS'),
-(2, 'Data Entry'),
-(3, 'Analyst'),
-(4, 'Salesperson');
+-- Nhập dữ liệu vào bảng WorkingDays
+INSERT INTO WorkingDays (EmployeeCode, NumberOfWorkingDays, NumberOfDaysOffWithPay, NumberOfDaysOffWithoutPay)
+VALUES ('A1', 22, 0, 0),
+       ('A2', 21, 0, 0),
+       ('B1', 21, 0, 1),
+       ('D1', 20, 0, 1),
+	   ('C1', 22, 0, 0),
+	   ('C2', 22, 0, 0),
+	   ('D2', 22, 0, 0),
+	   ('A3', 22, 0, 0),
+	   ('B2', 21, 1, 0);
+GO
 
-INSERT INTO Employee VALUES
-(1, 'Trần', 'Văn Toàn', '1980-01-01', 'M', 1),
-(2, 'Trần', 'Văn Nam', '1982-01-01', 'M', 1),
-(3, 'Huỳnh', 'Anh', '1979-01-01', 'M', 1),
-(4, 'Lê', 'Thị Bình', '1985-01-01', 'F', 2),
-(5, 'Nguyễn', 'Văn A', '1987-01-01', 'M', 3),
-(6, 'Lê', 'Thị B', '1986-01-01', 'F', 3),
-(7, 'Nguyễn', 'Lan Mai', '1983-01-01', 'F', 3),
-(8, 'Tuấn', 'Anh Hà', '1984-01-01', 'M', 3),
-(9, 'Hà', 'Thị Lan Lê', '1981-01-01', 'F', 2),
-(10, 'Lê', 'Tú Chinh', '1978-01-01', 'F', 1);
-
-INSERT INTO WorkSchedule VALUES
-(1, 1, '2020-10-01', '2020-10-31', '1', 22000),
-(2, 1, '2020-10-01', '2020-10-31', '2', 26400);
+-- Nhập dữ liệu vào bảng Salary
+INSERT INTO Salary (EmployeeCode, GrossSalary, NetSalary)
+VALUES ('A1', 22.000, 20.000),
+       ('A2', 26.400, 23.000),
+       ('B1', 13.200, 12.000),
+       ('D1', 11.000, 10.000),
+	   ('C1', 11.000, 10.000),
+	   ('C2', 26.400, 23.000),
+	   ('D2', 11.000, 10.000),
+	   ('A3', 26.400, 23.000),
+	   ('B2', 26.400, 23.000);
+	   GO
+GO
