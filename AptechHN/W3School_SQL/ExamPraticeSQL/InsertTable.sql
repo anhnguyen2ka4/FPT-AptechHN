@@ -4,13 +4,7 @@ GO
 -- Nhập dữ liệu vào bảng Department
 INSERT INTO Department (DepartmentCode, DepartmentName)
 VALUES ('IT', 'Room IT'),
-       ('IT', 'Room IT'),
-       ('HR', 'Room HR'),
-       ('HR', 'Room HR'),
 	   ('HR', 'Room HR'),
-	   ('SALE', 'Room SALE'),
-	   ('HR', 'Room HR'),
-	   ('IT', 'Room IT'),
 	   ('SALE', 'Room IT');
 GO
 
