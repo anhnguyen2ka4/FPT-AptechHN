@@ -1,0 +1,4 @@
+USE Exam
+GO
+
+SET IDENTITY_INSERT Employee
