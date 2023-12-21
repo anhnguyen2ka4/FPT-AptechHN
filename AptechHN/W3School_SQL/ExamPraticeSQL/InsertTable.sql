@@ -3,15 +3,15 @@ GO
 
 -- Nhập dữ liệu vào bảng Department
 INSERT INTO Department (DepartmentCode, DepartmentName)
-VALUES ('A1', 'Room A1'),
-       ('A2', 'Room A2'),
-       ('B1', 'Room B1'),
-       ('D1', 'Room D1'),
-	   ('C1', 'Room C1'),
-	   ('C2', 'Room C2'),
-	   ('D2', 'Room D2'),
-	   ('A3', 'Room A3'),
-	   ('B2', 'Room B2');
+VALUES ('IT', 'Room IT'),
+       ('IT', 'Room IT'),
+       ('HR', 'Room HR'),
+       ('HR', 'Room HR'),
+	   ('HR', 'Room HR'),
+	   ('SALE', 'Room SALE'),
+	   ('HR', 'Room HR'),
+	   ('IT', 'Room IT'),
+	   ('SALE', 'Room IT');
 GO
 
 -- Nhập dữ liệu vào bảng Employee
