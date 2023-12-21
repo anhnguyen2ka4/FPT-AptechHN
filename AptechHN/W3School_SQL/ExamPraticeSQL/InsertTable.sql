@@ -5,7 +5,7 @@ GO
 INSERT INTO Department (DepartmentCode, DepartmentName)
 VALUES ('IT', 'Room IT'),
 	   ('HR', 'Room HR'),
-	   ('SALE', 'Room IT');
+	   ('SALE', 'Room SALE');
 GO
 
 -- Nhập dữ liệu vào bảng Employee
