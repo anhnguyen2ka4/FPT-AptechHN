@@ -3,8 +3,14 @@ GO
 
 iNSERT INTO Department VALUES
 (1, 'IT'),
-(2, 'HR'),
-(3, 'SALE');
+(2, 'IT'),
+(3, 'HR'),
+(4, 'HR'),
+(5, 'HR'),
+(6, 'SALE'),
+(7, 'HR'),
+(8, 'IT'),
+(9, 'SALE');
 
 INSERT INTO WorkRole VALUES
 (1, 'DMS'),
