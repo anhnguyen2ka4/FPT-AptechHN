@@ -14,7 +14,7 @@ echo "I love $txt!";
 <body>
     <h1>My second PHP</h1>
     <?php 
-    echo "Welcome to PHP."
+    echo "Welcome to PHP.";
     ?>
 </body>
 </html>
