@@ -20,3 +20,22 @@ var_dump($d);
 var_dump($e);
 ?> 
 </pre>
+
+
+<?php
+class fruit {
+    public $type;
+    public $model;
+    public function Selection($type, $model) {
+        $this->type = $type;
+        $this->model = $model;
+    }
+    public function message() {
+        return "I buy " .$this->type. "" .$this->model. "!";
+    }
+}
+$myFruit = new Fruit("fresh", "Banana");
+
+$myFruit = (array) $myFruit;
+var_dump($myFruit);
+?>
