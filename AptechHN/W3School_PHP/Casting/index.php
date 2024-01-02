@@ -21,9 +21,9 @@ var_dump($e);
 ?> 
 </pre>
 
-
+<pre>
 <?php
-class fruit {
+class Fruit {
     public $type;
     public $model;
     public function Selection($type, $model) {
@@ -39,3 +39,4 @@ $myFruit = new Fruit("fresh", "Banana");
 $myFruit = (array) $myFruit;
 var_dump($myFruit);
 ?>
+</pre>
