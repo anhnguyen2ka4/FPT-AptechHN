@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add student</title>
+</head>
+<body>
+    <h1>Add student</h1>
+<form action="process.php" method="post">
+    <input type="hidden" name="choice" value="1">
+    <label for="id" >student ID:</label>
+    <input type="text" id="id" name="id" required>
+    <br>
+    <label for="name" >student name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="address" >student address:</label>
+    <input type="text" id="address" name="address" required>
+    <br>
+    <input type="submit" value="Add Student">
+</form>
+</body>
+</html>
