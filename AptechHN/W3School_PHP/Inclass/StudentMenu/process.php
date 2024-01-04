@@ -3,7 +3,10 @@
 class StudentManager
 {
     private $conn; // teen doi tuong cnnection
-
+//    private function idValid($id)
+//    {
+//        return is_numeric($id) && $id >0;
+//    }
     public function __construct($host, $username, $password, $dbname)
     {
         $this->conn = new mysqli($host, $username, $password, $dbname);
@@ -34,6 +37,10 @@ class StudentManager
         // Sử dụng câu lệnh Statement trong PHP để thực thi câu lệnh query trên
         $stmt = $this->conn->prepare($sql);
         $stmt->bind_param("i", $id);
+//        if(!$this->isValidId($id)){
+//            echo "Invalid student ID. Please enter a valid ID\n.";
+//            return;
+//        }
         if ($stmt->execute()) {
             $result = $stmt->get_result();
             if ($result->num_rows > 0) {
@@ -78,6 +85,19 @@ class StudentManager
 
     public function deleteStudent($id)
     {
+        $sql = "SELECT * FROM students WHERE id = ?";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bind_param("i", $id);
+        if ($stmt->execute()) {
+            $result = $stmt->get_result();
+            if ($result->num_rows == 0) {
+                echo "No student found with id $id\n";
+                return;
+            }
+        } else {
+            echo "Error checking student. $stmt->error\n";
+            return;
+        }
         // Câu lệnh truy vấn
         $sql = "DELETE FROM students WHERE id = ?";
         // Sử dụng câu lệnh Statement trong PHP để thực thi câu lệnh query trên
