@@ -31,10 +31,12 @@ class Fruit {
         $this->model = $model;
     }
     public function message() {
-        return "I buy " .$this->type. "" .$this->model. "!";
+        return "I buy " .$this->type. " " .$this->model. "!";
     }
 }
-$myFruit = new Fruit("fresh", "Banana");
+$myFruit = new Fruit();
+$myFruit->Selection("fresh", "Banana");
+echo $myFruit->message()."<br>"."<br>"."<br>";
 
 $myFruit = (array) $myFruit;
 var_dump($myFruit);
