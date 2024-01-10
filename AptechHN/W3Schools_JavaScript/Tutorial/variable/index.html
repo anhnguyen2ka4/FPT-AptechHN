@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+<body>
+    <h3>Example using var</h3>
+    <p></p>
+    <p id="ex1"></p>
+    <h2 id="demo"></h2>
+    <script>
+        var x = 10;
+        var y = 1;
+        var z = x + y;
+        document.getElementsByTagName('p')[0].innerHTML =
+        'The value of z is ' + z + '.';
+
+        const a = 12,
+              b = 14;
+        const c = b - a;
+        document.getElementById('ex1').innerHTML = 
+        'The value of b - a = ' + c + '.';
+
+        let carName = 'McLaren';
+        document.getElementById('demo').innerHTML =
+        carName;
+    </script>
+</body>
+</html>
