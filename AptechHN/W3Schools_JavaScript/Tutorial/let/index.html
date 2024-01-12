@@ -8,13 +8,37 @@
   <body>
     <h3 id="example"></h3>
     <h3 id="example1"></h3>
+    <h4 id="example2"></h4>
+    <p>(Var can redeclared and let can't)</p>
+    <h4 id="demo"></h4>
+    <h4 id="hello"></h4>
     <script>
-        {
-            let a = 1;
-            var b = 10;
-            document.getElementById('example').innerHTML = a;
-        }
-        document.getElementById('example1').innerHTML = b;
+      {
+        let a = 1;
+        var b = 10;
+        document.getElementById("example").innerHTML = a;
+      }
+      document.getElementById("example1").innerHTML = b;
+
+      var x = 2;
+      var x = 10;
+      document.getElementById("example2").innerHTML = x;
+
+      let c = 6;
+      {
+        let c = 9;
+      }
+      {
+        let c = 10;
+      }
+      document.getElementById("demo").innerHTML = c;
+
+      try {
+        studentName = "Anh";
+        let studentName;
+      } catch (erorr) {
+        document.getElementById("hello").innerHTML = erorr;
+      }
     </script>
   </body>
 </html>
