@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Const</title>
+  </head>
+  <body>
+
+
+    <p>Cannot be redeclared</p>
+    <br />
+    <p>
+      <h4 id="demo"></h4>
+      <b>const</b> PI = 3.14159265359 <br />
+      <b>Error: const</b> PI; <br />PI = 3.14159265359
+    </p>
+
+
+    <h4 id="example"></h4>
+    <p>Must be Assigned</p>
+    <script>
+      try {
+        const PI = 3.141592653589793;
+        PI = 3.14;
+        PI = PI + 10;
+      } catch (err) {
+        document.getElementById("demo").innerHTML = err;
+      }
+    </script>
+
+
+    <h4>Constant Arrays</h4>
+    <p id="demo1"></p>
+    <script>
+      const car = { type: "Fiat", model: "500", color: "white" };
+      car.color = "red";
+      car.owner = "Johnson";
+      document.getElementById("demo1").innerHTML = "Car owner is " + car.owner + ".";
+      alert(car.owner);
+    </script>
+  </body>
+</html>
